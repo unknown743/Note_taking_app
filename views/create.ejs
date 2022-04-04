@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Note Taker</title>
+</head>
+<body>
+    <!-- navbar -->
+    
+    <div class="header">
+        <section class="navbar">
+            <a href="/" class="ancer_title"><h1 class="header_title">Note Taker</h1></a>
+        </section>
+    </div>
+
+    <!-- saved notes -->
+        <div class="main row">
+           <form action="/create_note" method="post">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Name</h5>
+                  <input class="input"  name="name" type="text" placeholder="Enter your name">
+                  <h5 class="card-title">Title</h5>
+                  <input class="input"   name="title"  type="text" placeholder="Enter your title">
+                  <h5 class="card-title">Description</h5>
+                  <input class="input"  name="description"  type="text" placeholder="Enter your description">
+                  <div class="adding">
+                      <button class="btn btn-secondary" type="submit">Create +</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </form>
+        </div>
+
+
+
+
+        <!-- footer -->
+        <div class="footer">
+          <h4>Created by 00011016</h4>
+        </div>
+
+
+        <!-- <%- include('index') %> 
+
+
+     <script src="../js/bootstrap.js"></script> -->
+    <script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>

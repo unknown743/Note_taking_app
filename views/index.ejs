@@ -27,9 +27,9 @@
         <% for (let i = 0; i < demo.length; i++) {%> <div class="col-md-4">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title"> Name:  <%= demo[i]['name']%> </h5>
-              <h5 class="card-title"> Title:  <%= demo[i]['title']%> </h5>
-              <h5 class="card-title"> Description:  <%= demo[i]['description']%> </h5>
+              <h5 class="card-title"> <span>Name:  </span><%= demo[i]['name']%> </h5>
+              <h5 class="card-title"> <span>Title:  </span><%= demo[i]['title']%> </h5>
+              <h5 class="card-title"> <span>Description:  </span><%= demo[i]['description']%> </h5>
               <div class="buttons">
                 <a href="/update/<%= demo[i]['_id']%>" class="btn btn-primary edit">Edit</a>
                 <a href="/delete/<%= demo[i]['_id']%>" class="btn btn-danger ">Delete</a>

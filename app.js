@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const port = 8000;
 const mongoose = require("mongoose");
 
-//middleware.
+//middleware
 app.use(express.static("public"));
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));

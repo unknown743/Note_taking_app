@@ -5,7 +5,7 @@ This app allows users to create a note with editing, creating and deleting funti
 # Instructions
 1.Download the source code
 ```bash
-git clone [url to github repository]
+git clone https://github.com/unknown743/Note_taking_app.git
 ```
 
 or just download the *.zip file
@@ -29,6 +29,6 @@ node app
 
 
 #### Link to github repository
-[url to github repository]
+https://github.com/unknown743/Note_taking_app.git
 
 host link -

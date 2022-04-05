@@ -15,7 +15,7 @@ or just download the 00011016.zip file
 npm install
 ```
 
-2.Run the app
+3.Run the app
 ```bash
 node app
 ```

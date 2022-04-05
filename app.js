@@ -1,14 +1,16 @@
 const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
-const port = 8000;
+const PORT = process.env.PORT ||8000;
 const mongoose = require("mongoose");
+const dotenv = require('dotenv')
+dotenv.config()
 
 //middleware
 app.use(express.static("public"));
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));
-
+const MONGODB_URI = `mongodb+srv://Shukhratovich:Wiut_2003@cluster0.ynkus.mongodb.net/notetakerDB`
 mongoose.connect("mongodb://localhost:27017/notetakerDB")
 
 const notetakerSchema = {
@@ -95,6 +97,6 @@ app.post("/update/:id", (req, res) => {
 
 
 
-app.listen(port, () => {
-    console.log("listening on port ", port);
+app.listen(PORT, () => {
+    console.log("listening on port ", PORT);
 }); 

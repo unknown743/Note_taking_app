@@ -11,7 +11,7 @@ app.use(express.static("public"));
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));
 const MONGODB_URI = `mongodb+srv://Shukhratovich:Wiut_2003@cluster0.ynkus.mongodb.net/notetakerDB`
-mongoose.connect("mongodb://localhost:27017/notetakerDB")
+mongoose.connect(MONGODB_URI || "mongodb://localhost:27017/notetakerDB")
 
 const notetakerSchema = {
    name : String,

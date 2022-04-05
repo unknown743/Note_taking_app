@@ -31,4 +31,5 @@ node app
 #### Link to github repository
 https://github.com/unknown743/Note_taking_app.git
 
-#### Link to Glitch
+#### Link to Application on Heroku
+https://islomnodejs.herokuapp.com/

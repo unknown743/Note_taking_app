@@ -8,7 +8,7 @@ This app allows users to create a note with editing, creating and deleting funti
 git clone https://github.com/unknown743/Note_taking_app.git
 ```
 
-or just download the *.zip file
+or just download the 00011016.zip file
 
 2.Install dependencies 
 ```bash
